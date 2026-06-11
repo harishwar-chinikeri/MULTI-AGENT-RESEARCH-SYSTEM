@@ -5,11 +5,12 @@ from langchain_core.output_parsers import StrOutputParser
 from tools import web_search,scrape_url
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
 # model setup
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key=os.getenv("GOOGLE_API_KEY"))
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key=st.secrets["GOOGLE_API_KEY"])
 
 # 1st agent
 def build_search_agent():
