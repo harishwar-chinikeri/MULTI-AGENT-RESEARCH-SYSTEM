@@ -6,7 +6,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-Agentic%20AI-green)
-![LLM](https://img.shields.io/badge/LLM-Gemini%20%7C%20OpenAI-orange)
 ![License](https://img.shields.io/badge/License-MIT-red)
 
 </p>
